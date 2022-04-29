@@ -1,0 +1,101 @@
+/*
+    Version 1.0
+*/
+/* CSS for all */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curved{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+}
+
+.btn-primary{
+    background-color: silver;
+}
+
+h2{
+    color:#ffffff;
+    font-size: 2rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 0.5px;
+    left:25%;
+}
+
+/* CSS for Navigation bar*/
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.menu{
+    line-height: 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.menu ul li a{
+    color: #0a3d62; 
+}
+
+/* CSS for Welcome text*/
+.welcome-screen{
+    background-image: url(../Images/Welcome_Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 10%;
+
+}
+
+/* CSS for Features*/
+.box1{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
