@@ -10,6 +10,73 @@
 </head>
 <link rel="icon" type="image/png" href="Images/NSU Shuttle icon.png"/>
 <body style="background-color:rgb(19, 91, 100);">
-    
+    <!--Navigation bar starts-->
+    <section class="navigation-bar" style="background-color:rgb(255, 255, 255);">
+        <div class="container">
+            <div class="logo">
+                <img src="Images/NSU Shuttle Logo.png" alt="logo" class="img-responsive">
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/Homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/adminlogin.html">Admin Login</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/signUp.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix">
+
+            </div>
+        </div> 
+    </section>
+    <!--Navigation bar ends-->
+     <!--user login starts-->
+     <section class="login text-center">
+        <div class="container">
+            
+                <h3 class="float-text">User Login</h3>
+                <form action="user_login_script.php" method="post">
+                    <label for="id" class="label">User ID:</label>
+                    <input type="number" id="id" name="id" value="User_ID">
+
+            <br><br>
+
+            <label for="password" class="label">Password:</label>
+            <input type="text" id="password" name="password">
+
+           <br><br>
+           <button type="submit">Log in</button>
+            <br><br>
+                </form>
+
+            <div class="clearfix"></div>
+            
+
+    </section>
+    <!--user login ends-->
+
+    <!--Footer starts-->
+    <section class="Footer"> 
+        <div class="container text-center">
+            <p class="text-white">All rights reserved. Designed By <a href="#">Tech Company</a> Maintained By <a href="http://www.northsouth.edu/resources/it-resource-center.html">NSU IT</a></p>
+        </div> 
+    </section>
+    <!--Footer ends-->
 </body>
 </html>
