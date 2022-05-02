@@ -9,6 +9,69 @@
 </head>
 <link rel="icon" type="image/png" href="Images/NSU Shuttle icon.png"/>
 <body style="background-color:rgb(19, 91, 100);">
+
+    <!--Navigation bar starts-->
+    <section class="navigation-bar" style="background-color:rgb(255, 255, 255);">
+        <div class="container">
+            <div class="logo">
+                <img src="Images/NSU Shuttle Logo.png" alt="logo" class="img-responsive">
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/Homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/userlogin.html">User Login</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/signUp.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/NSU_Shuttle/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix">
+
+            </div>
+        </div> 
+    </section>
+    <!--Navigation bar ends-->
+
+    <!--admin login starts-->
+    <section class="login text-center">
+        <div class="container">
+            
+                <h3 class="float-text">Admin Login</h3>
+                <form action="admin_login_script.php" method="post">
+                    <label for="id" class="label">Admin ID:</label>
+                    <input type="number" id="id" name="id" value="Admin ID">
+
+            <br><br>
+
+            <label for="password" class="label">Password:</label>
+            <input type="text" id="password" name="password">
+
+           <br><br>
+            <!-- <button type="button"> <a href="http://localhost/NSU_Shuttle/admin_account.html">Log In</a></button> -->
+            <button type="submit">Log in</button>
+            <br><br>
+                </form>
+
+            <div class="clearfix"></div>
+            
+
+    </section>
+    <!--admin login ends-->
     
 </body>
 </html>
