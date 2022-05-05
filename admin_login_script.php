@@ -404,8 +404,4 @@
         echo 'Invalid credentials';
     }
 
-
-
-
-
 </php>
