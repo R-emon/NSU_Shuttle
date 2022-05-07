@@ -1,0 +1,263 @@
+/*
+	Author:  S M SAMIUL HAQ;
+	ID: 2011103642; 
+	Project:  NSU Shuttle;
+
+*/
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.page{
+	background-color: #dfe6e9;
+}
+
+/*CSS for Logo*/
+.logo{
+    background-color:white ;
+    width: 16%;
+    float: left;
+    border: 10px white solid;
+    border-right: 20px white solid;
+}
+
+/*Welcome text after log in*/
+.block1 h1{
+    font: 28px sans-serif;
+    text-indent: 10px;
+    color: white ;
+    background-color: #4267B2;
+    width: 75%
+    margin: auto;
+    border: 5px solid white;
+    border-right: 20px;
+
+
+}
+
+/*Log out button*/
+.container button{
+	color:#2f4f4f ;
+	background-color: beige;
+	text-decoration: underline;
+	font-weight: bold;
+	border: 5px 5px white solid;
+}
+
+/* CSS for Navigation bar*/
+
+.nav_menu_block{
+    background-color: #f0ffff;
+    width:  100%;
+    margin: auto;
+    color: #2f4f4f;
+    border:5px white solid;
+    text-decoration: underline;
+}
+
+/*CSS For Footer*/
+.footer{
+	padding: 1px;
+	border: 1px black solid;
+	background-color:#f0ffff ;
+}
+
+h1{
+	font: 24px sans-serif;
+    text-indent: 10px;
+}
+
+/*admin panel*/
+.monitoring{
+	background-color: whitesmoke;
+	color: black;
+	border: 1px dotted black;
+	padding: 2%;
+}
+.monitoring h1{
+	text-decoration: underline;
+}
+
+.monitoring ul{
+	text-decoration: none;
+	list-style-type:square;
+}
+
+.monitoring ul li a{
+	color: #4267B2;
+}
+
+.monitoring a:hover{
+	color: #2ecc71;
+}
+
+/*CSS for the Booking Form */
+.all_forms{
+}
+
+.all_forms h2{
+	font: 22px sans-serif;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+h3{
+	font: 20px sans-serif;
+    text-indent: 10px;
+
+}
+
+.all_forms label{
+	margin: auto;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+  	width: 200px;
+	color: #2f4f4f;
+	border-right: 20px;
+	background-color: floralwhite;	
+}
+
+.all_forms button{
+	color:#2f4f4f ;
+	background-color: #fffaf0;
+	text-decoration: none;
+	font-weight: bold;
+	border: 5px 5px white solid;
+	padding: 5px;
+	text-align: centre;
+	width: 120px;
+	margin: 0 auto;
+	float: none;
+}
+
+.form-1{
+	background-color: #dff9fb;
+	border: 5px midnightblue double;
+	padding: 20px 20px white solid;
+}
+
+.form-2{
+	background-color: #81ecec;
+	border: 5px midnightblue double;
+	padding: 20px 20px white solid;
+}
+
+.form-3{
+	background-color: #f1c40f;
+	border: 5px midnightblue double;
+	padding: 20px 20px white solid;	
+}
+
+.form-4{
+	background-color: #fab1a0;
+	border: 5px midnightblue double;
+	padding: 20px 20px white solid;
+}
+
+
+/*CSS For Form Ends*/
+
+
+
+
+
+.container text-center{
+	background-color:blueviolet;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curved{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+}
+
+.btn-primary{
+    background-color: silver;
+}
+
+h2{
+    color:#222f3e;
+    font-size: 2rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 0.5px;
+    left:25%;
+}
+
+.menu{
+    line-height: 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.menu ul li a{
+    color: #0a3d62;
+
+
+}
+
+.menu ul li a:hover{
+	color: #6c5ce7;
+}
+
+/* CSS for Features*/
+.box1{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+    margin-top: 70px;
+}
+
+

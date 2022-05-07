@@ -1,7 +1,6 @@
 <!-- Author: Rabiul Islam Emon -->
 
-<?<php>
-
+<?php
     $servernanme= "localhost";
     $dBUsername = "root";
     $dBPassword = "";
@@ -405,5 +404,4 @@
     } else {
         echo 'Invalid credentials';
     }
-
-</php>
+?>

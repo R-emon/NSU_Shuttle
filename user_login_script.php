@@ -159,7 +159,7 @@ if ($password == $user['Password']) {
 <div class="footer">
 <section class="Footer"> 
     <div class="container text-center">
-        <p>All rights reserved. Designed By <a href="#">S Tech Company</a> Maintained By <a href="http://www.northsouth.edu/resources/it-resource-center.html">NSU IT</a></p>
+        <p>All rights reserved. Designed By <a href="#">Tech Company</a> Maintained By <a href="http://www.northsouth.edu/resources/it-resource-center.html">NSU IT</a></p>
     </div> 
 </section>
 </div>
